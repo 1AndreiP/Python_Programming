@@ -10,7 +10,7 @@ Output: 2
 def count_names(letter): 
     total = 0
     names=[]
-    n = int(input("Hoe manuy names you want: "))
+    n = int(input("How manuy names you want: "))
     for i in range(n):
         a=input("Add the names: ")
         names.append(a)
