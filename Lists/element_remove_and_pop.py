@@ -5,8 +5,10 @@ remove elements from the list (using remove and pop )
 '''
 
 list=[]
-for i in range(5):
+while True:
     a=input("Add your element here: ")
+    if a == "-1":
+        break
     list.append(a)
 print("This is the current list: ", list)
 b=input("Remove a element from the list: ")
